@@ -8,11 +8,14 @@ public class App {
 
         Scanner in = new Scanner(System.in);
 
-        String input = "";
+        // String input = "";
 
-        ShoppingList sl = new ShoppingList();
+        // ShoppingList sl = new ShoppingList();
 
-        sl.myShoppingList(in, input);
+        // sl.myShoppingList(in, input);
+
+        Menu menu = new Menu();
+        menu.start(in);
 
     }
 }
